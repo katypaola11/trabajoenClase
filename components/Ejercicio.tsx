@@ -17,8 +17,11 @@ export default function Ejercicio(props: any) {
                     <Text style={styles.text}>{props.info.id}</Text>
                     <Text style={styles.text}>{props.info.titulo}</Text>
                     <Text style={styles.text}>{props.info.genero}</Text>
+                    <Text>Lol</Text>
 
-                    
+
+
+
                     <Image source={{ uri: props.info.imagen }} style={styles.img} />
                 </View>
 
